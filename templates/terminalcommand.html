@@ -1,0 +1,205 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <head>
+            <style>
+                  body {
+                      background-color: #d3aedb;
+                      font-family: sans-serif;
+                  }
+          
+                  h1 {
+                      color: #ea069a;
+                      font-size: 2em;
+                      margin-top: 0;
+                  }
+          
+                  table {
+                      width: 80%;
+                      margin: auto;
+                      border-collapse: collapse;
+                  }
+          
+                  th, td {
+                      padding: 8px;
+                      text-align: left;
+                      border-bottom: 1px solid #f10404;
+                  }
+          
+                  th {
+                      background-color: #5facf0;
+                  }
+          
+                  img {
+                      width: 100%;
+                      max-width: 300px;
+                      margin-bottom: 10px;
+                  }
+              </style>
+</head>
+<body>
+     
+<h1>Linux Terminal Commands</h1>
+  <ul>
+      <li style="color:rgb(24, 23, 23)4;" ><a href="/1">Go to Terminal Commands</a></li>
+      <li style="color:rgb(24, 23, 23)4;" ><a href="/">Go to flask Commands</a></li>
+      <li  style="color:rgb(24, 23, 23)4;" ><a href="/2">Go to topython Commands</a></li>
+      <li  style="color:rgb(24, 23, 23)4;"><a href="/3">Go to  kivi Commands</a></li>
+      <li  style="color: #f10404;"><a href="/code.png">Example code whit kivi Commands</a></li>
+  </ul>
+  
+<table>
+  <tr>
+    <th>Command</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>ls</td>
+    <td>Lists files and directories in the current directory.</td>
+  </tr>
+  <tr>
+    <td>cd [directory]</td>
+    <td>Changes the current directory to the specified directory.</td>
+  </tr>
+  <tr>
+    <td>pwd</td>
+    <td>Displays the full path of the current directory.</td>
+  </tr>
+  <tr>
+    <td>mkdir [directory]</td>
+    <td>Creates a new directory.</td>
+  </tr>
+  <tr>
+    <td>touch [file]</td>
+    <td>Creates a new empty file.</td>
+  </tr>
+  <tr>
+    <td>rm [file]</td>
+    <td>Deletes a file (does not hold it in the trash).</td>
+  </tr>
+  <tr>
+    <td>rmdir [directory]</td>
+    <td>Deletes an empty directory.</td>
+  </tr>
+  <tr>
+    <td>cp [source] [destination]</td>
+    <td>Copies a file from source to destination.</td>
+  </tr>
+  <tr>
+    <td>mv [source] [destination]</td>
+    <td>Moves a file from source to destination (can also be used to rename it).</td>
+  </tr>
+  <tr>
+    <td>echo [text] > [file]</td>
+    <td>Creates a file and inserts text into it.</td>
+  </tr>
+  <tr>
+    <td>cat [file]</td>
+    <td>Displays the content of a file.</td>
+  </tr>
+  <tr>
+    <td>chmod [permissions] [file]</td>
+    <td>Changes the permissions of a file (e.g., chmod 755).</td>
+  </tr>
+  <tr>
+    <td>chown [user:group] [file]</td>
+    <td>Changes the owner and group of a file.</td>
+  </tr>
+  <tr>
+    <td>sudo [command]</td>
+    <td>Executes a command as the system administrator.</td>
+  </tr>
+  <tr>
+    <td>top</td>
+    <td>Displays an interface with a list of active processes and system usage.</td>
+  </tr>
+  <tr>
+    <td>kill [PID]</td>
+    <td>Terminates a process based on its Process ID.</td>
+  </tr>
+  <tr>
+    <td>df</td>
+    <td>Displays information about free and used disk space.</td>
+  </tr>
+  <tr>
+    <td>du [directory]</td>
+    <td>Displays the disk space used by a directory.</td>
+  </tr>
+  <tr>
+    <td>ssh [user]@[host]</td>
+    <td>Connects to an external server via SSH.</td>
+  </tr>
+  <tr>
+    <td>curl [URL]</td>
+    <td>Performs an HTTP request to a URL and displays the content.</td>
+  </tr>
+  <tr>
+    <td>nano [file]</td>
+    <td>Opens a simple text editor in the terminal.</td>
+  </tr>
+  <tr>
+    <td>vim [file]</td>
+    <td>Opens an advanced text editor in the terminal.</td>
+  </tr>
+  <tr>
+    <td>grep [pattern] [file]</td>
+    <td>Searches for specific text in a file.</td>
+  </tr>
+  <tr>
+    <td>find [directory] -name [filename]</td>
+    <td>Searches for files by name within a specific directory structure.</td>
+  </tr>
+  <tr>
+    <td>history</td>
+    <td>Displays the command history entered in the terminal.</td>
+  </tr>
+  <tr>
+    <td>tar -cvzf [archive.tar.gz] [files]</td>
+    <td>Creates a compressed archive file from specified files.</td>
+  </tr>
+  <tr>
+    <td>tar -xvzf [archive.tar.gz]</td>
+    <td>Extracts files from a compressed archive.</td>
+  </tr>
+  <tr>
+    <td>ssh-keygen</td>
+    <td>Generates SSH keys for secure authentication.</td>
+  </tr>
+  <tr>
+    <td>ping [host]</td>
+    <td>Sends ICMP requests to a server and displays the estimated round-trip time.</td>
+  </tr>
+  <tr>
+    <td>ifconfig</td>
+    <td>Displays network information and IP addresses.</td>
+  </tr>
+  <tr>
+    <td>wget [URL]</td>
+    <td>Downloads a file from the internet.</td>
+  </tr>
+  <tr>
+    <td>scp [file] [user]@[host]:[destination]</td>
+    <td>Copies a file to an external server via SSH.</td>
+  </tr>
+  <tr>
+    <td>chmod +x [file]</td>
+    <td>Allows execution of a script or program.</td>
+  </tr>
+  <tr>
+    <td>uptime</td>
+    <td>Displays the system's uptime.</td>
+  </tr>
+  <tr>
+    <td>who</td>
+    <td>Displays information about users currently logged into the system.</td>
+  </tr>
+</table>
+<ul>
+    
+   >
+  </ul>
+
+
+</body>
+</html>

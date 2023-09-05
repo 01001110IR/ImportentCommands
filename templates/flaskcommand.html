@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Commands</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+    <style>
+        body {
+            background-color: #d4c2e5;
+            font-family: sans-serif;
+        }
+
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #f10404;
+        }
+
+        th {
+            background-color: #5facf0;
+        }
+
+        img {
+            width: 100%;
+            max-width: 300px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flask Commands and Explanations</h1>
+    <ul>
+        <li style="color:rgb(24, 23, 23)4;" ><a href="/1">Go to Terminal Commands</a></li>
+        <li style="color:rgb(24, 23, 23)4;" ><a href="/">Go to flask Commands</a></li>
+        <li  style="color:rgb(24, 23, 23)4;" ><a href="/2">Go to topython Commands</a></li>
+        <li  style="color:rgb(24, 23, 23)4;"><a href="/3">Go to  kivi Commands</a></li>
+        <li  style="color: #f10404;"><a href="/code.png">Example code whit kivi Commands</a></li>
+    </ul>
+    
+    <table>
+        <tr>
+            <th>Command</th>
+            <th>Description</th>
+            <th>Example</th>
+        </tr>
+        <tr>
+            <td>flask run</td>
+            <td>Runs the Flask development server</td>
+            <td><code>flask run</code></td>
+        </tr>
+        <tr>
+            <td>flask shell</td>
+            <td>Opens an interactive Python shell with the Flask application context</td>
+            <td><code>flask shell</code></td>
+        </tr>
+        <tr>
+            <td>flask routes</td>
+            <td>Displays a list of all URL routes defined in the application</td>
+            <td><code>flask routes</code></td>
+        </tr>
+        <tr>
+            <td>flask shell --ctx</td>
+            <td>Opens a Python REPL with access to the main server context (not just the development context)</td>
+            <td><code>flask shell --ctx</code></td>
+        </tr>
+        <tr>
+            <td>flask --app APP_NAME run</td>
+            <td>Runs the explicitly defined Flask application specified by APP_NAME</td>
+            <td><code>flask --app myapp run</code></td>
+        </tr>
+        <tr>
+            <td>flask --version</td>
+            <td>Displays the installed Flask version</td>
+            <td><code>flask --version</code></td>
+        </tr>
+        <tr>
+            <td>flask --help</td>
+            <td>Displays help information about Flask commands, including available commands, options, and arguments</td>
+            <td><code>flask --help</code></td>
+        </tr>
+        <tr>
+            <td>flask --app APP_NAME routes</td>
+            <td>Displays the list of routes for a specific Flask application specified by APP_NAME</td>
+            <td><code>flask --app myapp routes</code></td>
+        </tr>
+        <tr>
+            <td>flask --app APP_NAME shell</td>
+            <td>Opens an interactive Python shell with the context of a specific Flask application specified by APP_NAME</td>
+            <td><code>flask --app myapp shell</code></td>
+        </tr>
+        <tr>
+            <td>flask --app APP_NAME --version</td>
+            <td>Displays the Flask version installed in a specific Flask application specified by APP_NAME</td>
+            <td><code>flask --app myapp --version</code></td>
+        </tr>
+        <tr>
+            <td>flask --app APP_NAME --help</td>
+            <td>Displays help information about commands for a specific Flask application specified by APP_NAME</td>
+            <td><code>flask --app myapp --help</code></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
